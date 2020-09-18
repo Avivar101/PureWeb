@@ -1,22 +1,34 @@
 <template>
 <header>
-    <div class="hd-top">
+    <div class="pad hd-top">
         <ul>
-            <li>
-                <img class="social-icon1" src="../assets/facebook-f-brands.svg" alt="fb" />
+            <li class="fb">
+                <img src="../assets/icons/facebook-f-brands.svg" alt="fb" />
             </li>
-            <li>
-                <img class="social-icon2" src="../assets/instagram-brands.svg" alt="inst" />
+            <li class="inst">
+                <img src="../assets/icons/instagram-brands.svg" alt="inst" />
             </li>
-            <li>
-                <img class="social-icon3" src="../assets/twitter-brands.svg" alt="twtt" />
+            <li class="twtt">
+                <img src="../assets/icons/twitter-brands.svg" alt="twtt" />
             </li>
         </ul>
     </div>
-    <div class="header">
-        <h1>This is the header</h1>
+    <div class="pad headr">
+        <div class="hdr_logo">
+            <img src="../assets/images/LOGO11.png" alt="logo_pureweb" />
+        </div>
+        <div class="search">
+            <ul>
+                <li>
+                    <img class="search_ico" src="../assets/icons/search-solid.svg" alt="search" />
+                </li>
+                <li>
+                    <img class="lock_ico" src="../assets/icons/lock-solid.svg" alt="search" />
+                </li>
+            </ul>
+        </div>
     </div>
-    <div class="hd-bottom"></div>
+    <div class="pad hd-bottom"></div>
 </header>
 </template>
 
