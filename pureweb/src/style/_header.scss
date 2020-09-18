@@ -1,0 +1,22 @@
+header {
+  .hd-top {
+    box-sizing: border-box;
+    display: block;
+    list-style: none;
+    background-color: rgb(233, 233, 233);
+    ul {
+      display: flex;
+      justify-content: end;
+      li {
+        text-align: center;
+        box-sizing: border-box;
+        list-style: none;
+        height: 30px;
+        width: 35px;
+        img {
+          width: 25%;
+        }
+      }
+    }
+  }
+}
