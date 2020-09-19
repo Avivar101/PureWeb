@@ -1,3 +1,10 @@
+header {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-top: 5px solid #72e201;
+  border-bottom: 5px solid #72e201;
+}
+
 header .hd-top {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -111,6 +118,37 @@ header .headr .search ul li img {
 
 header .headr .search ul li:hover {
   background-color: #72e201;
+}
+
+header .hd-bottom {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 50px;
+  background-color: #313131;
+  border-bottom: 5px solid #535353;
+}
+
+header .hd-bottom nav {
+  height: 100%;
+}
+
+header .hd-bottom nav ul {
+  display: inline-block;
+  height: 100%;
+}
+
+header .hd-bottom nav ul router-link {
+  color: white;
+  display: inline-block;
+  height: 100%;
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+header .hd-bottom nav ul router-link:hover {
+  background-color: #535353;
+  cursor: pointer;
 }
 
 * {

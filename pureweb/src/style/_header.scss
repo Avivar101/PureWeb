@@ -1,4 +1,7 @@
 header {
+  box-sizing: border-box;
+  border-top: 5px solid rgb(114, 226, 1);
+  border-bottom: 5px solid rgb(114, 226, 1);
   .hd-top {
     box-sizing: border-box;
     display: block;
@@ -68,6 +71,31 @@ header {
         }
         li:hover {
           background-color: rgb(114, 226, 1);
+        }
+      }
+    }
+  }
+  .hd-bottom {
+    box-sizing: border-box;
+    height: 50px;
+    background-color: rgb(49, 49, 49);
+    border-bottom: 5px solid rgb(83, 83, 83);
+    nav {
+      height: 100%;
+      ul {
+        display: inline-block;
+        height: 100%;
+        router-link {
+          color: white;
+          display: inline-block;
+          height: 100%;
+          padding-top: 15px;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+        router-link:hover {
+          background-color: rgb(83, 83, 83);
+          cursor: pointer;
         }
       }
     }

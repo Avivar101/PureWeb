@@ -28,7 +28,20 @@
             </ul>
         </div>
     </div>
-    <div class="pad hd-bottom"></div>
+    <div class="pad hd-bottom">
+        <nav>
+            <ul>
+                <router-link to tag="li">Home</router-link>
+                <router-link to tag="li">About Us</router-link>
+                <router-link to tag="li">Our Solution</router-link>
+                <router-link to tag="li">Our Clients</router-link>
+                <router-link to tag="li">Events</router-link>
+                <router-link to tag="li">Careers</router-link>
+                <router-link to tag="li">Get Quote</router-link>
+                <router-link to tag="li">Contact Use</router-link>
+            </ul>
+        </nav>
+    </div>
 </header>
 </template>
 
