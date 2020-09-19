@@ -1,7 +1,12 @@
-.slider {
-  .img-slidr {
-    height: 500px;
-    background-image: url("../assets/images/sliders/slider1.jpg");
+section {
+  .slide {
+    box-sizing: border-box;
+    .slider1 {
+      .img-slidr {
+        height: 510px;
+        background-image: url("../assets/images/sliders/slider1.jpg");
+      }
+    }
   }
   .slidr-botm {
     height: 101px;
