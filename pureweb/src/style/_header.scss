@@ -1,7 +1,10 @@
 header {
   box-sizing: border-box;
-  border-top: 5px solid rgb(114, 226, 1);
-  border-bottom: 5px solid rgb(114, 226, 1);
+  .green {
+    border-top: 5px solid rgb(114, 226, 1);
+    border-bottom: 5px solid rgb(114, 226, 1);
+  }
+
   .hd-top {
     box-sizing: border-box;
     display: block;

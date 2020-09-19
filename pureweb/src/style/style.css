@@ -1,6 +1,9 @@
 header {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+header .green {
   border-top: 5px solid #72e201;
   border-bottom: 5px solid #72e201;
 }
@@ -149,6 +152,16 @@ header .hd-bottom nav ul router-link {
 header .hd-bottom nav ul router-link:hover {
   background-color: #535353;
   cursor: pointer;
+}
+
+.slider .img-slidr {
+  height: 500px;
+  background-image: url("../assets/images/sliders/slider1.jpg");
+}
+
+.slider .slidr-botm {
+  height: 101px;
+  background-color: lawngreen;
 }
 
 * {
