@@ -1,19 +1,19 @@
 <template>
 <div id="app">
     <Header />
-    <HeadSlide />
+    <HeadBody />
 </div>
 </template>
 
 <script>
 import Header from "./components/Header";
-import HeadSlide from "./components/HeadSlider";
+import HeadBody from "./components/HeadBody";
 
 export default {
     name: "App",
     components: {
         Header,
-        HeadSlide,
+        HeadBody,
     },
 };
 </script>

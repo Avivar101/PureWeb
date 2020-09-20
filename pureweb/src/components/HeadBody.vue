@@ -41,21 +41,21 @@
                 <h3>CUSTOMERS</h3>
                 <p>
                     2,281+ Happy
-                    Customers
+                    <br />Customers
                 </p>
             </div>
             <div class="hovr hovrBlck2">
-                <h3>Projects</h3>
+                <h3>PROJECTS</h3>
                 <p>
                     2000+ Projects
-                    Completed
+                    <br />Completed
                 </p>
             </div>
             <div class="hovr hovrBlck3">
-                <h3>experience</h3>
+                <h3>EXPERIENCE</h3>
                 <p>
                     15+ years of
-                    Experience
+                    <br />Experience
                 </p>
             </div>
         </div>
@@ -72,6 +72,6 @@
 
 <script>
 export default {
-    name: "HeadSlide",
+    name: "HeadBody",
 };
 </script>

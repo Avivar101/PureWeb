@@ -75,6 +75,7 @@ section {
       display: flex;
       .hovr {
         width: 33.3%;
+        color: white;
         z-index: 1;
       }
       .hovr:hover {
@@ -82,15 +83,12 @@ section {
       }
       .hovrBlck1 {
         background-color: rgb(16, 143, 16);
-        text-transform: uppercase;
       }
       .hovrBlck2 {
         background-color: rgb(37, 197, 37);
-        text-transform: uppercase;
       }
       .hovrBlck3 {
         background-color: rgb(95, 223, 45);
-        text-transform: uppercase;
       }
     }
     .text {

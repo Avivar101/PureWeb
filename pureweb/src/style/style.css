@@ -254,6 +254,7 @@ section .slidr-botm .hovers {
 
 section .slidr-botm .hovers .hovr {
   width: 33.3%;
+  color: white;
   z-index: 1;
 }
 
@@ -263,17 +264,14 @@ section .slidr-botm .hovers .hovr:hover {
 
 section .slidr-botm .hovers .hovrBlck1 {
   background-color: #108f10;
-  text-transform: uppercase;
 }
 
 section .slidr-botm .hovers .hovrBlck2 {
   background-color: #25c525;
-  text-transform: uppercase;
 }
 
 section .slidr-botm .hovers .hovrBlck3 {
   background-color: #5fdf2d;
-  text-transform: uppercase;
 }
 
 section .slidr-botm .text {
