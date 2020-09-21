@@ -254,19 +254,62 @@ section {
       }
       .plastBox {
         display: flex;
-        height: 30px;
+        margin-top: 25px;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
         .Box {
-          height: 30px;
-          flex-grow: 1;
+          flex: 1 1 0;
+          width: 0;
+          height: 22em;
+          flex-direction: column;
+          justify-content: space-evenly;
         }
         .box1 {
-          background-color: yellow;
+          display: flex;
+          flex-direction: column;
+          .boxes {
+            color: rgba(255, 255, 255, 1);
+            display: flex;
+            .boxIcon {
+              display: inline-block;
+              text-align: center;
+              margin-right: 5px;
+              padding: 12px;
+              color: rgba(255, 255, 255, 1);
+              background-color: rgba(67, 120, 7, 1);
+              border-style: solid;
+              border-color: rgba(67, 120, 7, 1);
+              border-radius: 50px;
+              .fas,
+              .far {
+                font-size: 28px;
+              }
+            }
+            h3 {
+              font-size: 18px;
+              line-height: 18px;
+              font-weight: 700;
+              text-transform: uppercase;
+              font-family: PT Sans, sans-serif;
+            }
+            p {
+              font-size: 14px;
+              line-height: 1.42857143;
+            }
+          }
+          .bozer {
+            text-align: left;
+          }
+          .boxer {
+            text-align: right;
+            flex-direction: row-reverse;
+            .boxIcon {
+              margin-left: 5px !important;
+            }
+          }
         }
         .box2 {
-          background-color: blue;
-        }
-        .box3 {
-          background-color: brown;
         }
       }
     }

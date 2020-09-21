@@ -472,26 +472,88 @@ section .last .plast .plastBox {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 30px;
+  margin-top: 25px;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 section .last .plast .plastBox .Box {
-  height: 30px;
   -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+      -ms-flex: 1 1 0px;
+          flex: 1 1 0;
+  width: 0;
+  height: 22em;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 section .last .plast .plastBox .box1 {
-  background-color: yellow;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
-section .last .plast .plastBox .box2 {
-  background-color: blue;
+section .last .plast .plastBox .box1 .boxes {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-section .last .plast .plastBox .box3 {
-  background-color: brown;
+section .last .plast .plastBox .box1 .boxes .boxIcon {
+  display: inline-block;
+  text-align: center;
+  margin-right: 5px;
+  padding: 12px;
+  color: white;
+  background-color: #437807;
+  border-style: solid;
+  border-color: #437807;
+  border-radius: 50px;
+}
+
+section .last .plast .plastBox .box1 .boxes .boxIcon .fas,
+section .last .plast .plastBox .box1 .boxes .boxIcon .far {
+  font-size: 28px;
+}
+
+section .last .plast .plastBox .box1 .boxes h3 {
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: PT Sans, sans-serif;
+}
+
+section .last .plast .plastBox .box1 .boxes p {
+  font-size: 14px;
+  line-height: 1.42857143;
+}
+
+section .last .plast .plastBox .box1 .bozer {
+  text-align: left;
+}
+
+section .last .plast .plastBox .box1 .boxer {
+  text-align: right;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+section .last .plast .plastBox .box1 .boxer .boxIcon {
+  margin-left: 5px !important;
 }
 
 section .last .plast2 {

@@ -103,13 +103,69 @@
     <div class="last">
         <div class="pad plast">
             <div class="plastTxt">
-                <h3>We Provide Services For</h3>
+                <h3>industries We Provide Services For</h3>
                 <p>We Provide Web Solutions, As Well As Software Solutions For So Many Industries, Below Are Few Industries We Service</p>
             </div>
             <div class="plastBox">
-                <div class="Box box1"></div>
-                <div class="Box box2"></div>
-                <div class="Box box3"></div>
+                <div class="Box box1">
+                    <div class="bozer boxes">
+                        <div class="boxIcon">
+                            <i class="fas fa-university"></i>
+                        </div>
+                        <div class="boxTxt">
+                            <h3>Banking Industry</h3>
+                            <p>We provide complete online payment system, with additional modules and features.</p>
+                        </div>
+                    </div>
+                    <div class="bozer boxes">
+                        <div class="boxIcon">
+                            <i class="far fa-hospital"></i>
+                        </div>
+                        <div class="boxTxt">
+                            <h3>Healthcare Industry</h3>
+                            <p>Electronic health records, scheduling, billing, internationalization and a whole lot more.</p>
+                        </div>
+                    </div>
+                    <div class="bozer boxes">
+                        <div class="boxIcon">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                        <div class="boxTxt">
+                            <h3>Retail & E-Commerce</h3>
+                            <p>E-Commerce is at the center of the Internet economic revolution.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="Box box2">deewe</div>
+                <div class="Box box1">
+                    <div class="boxer boxes">
+                        <div class="boxIcon">
+                            <i class="fas fa-book"></i>
+                        </div>
+                        <div class="boxTxt">
+                            <h3>E-Learning & Education</h3>
+                            <p>We are experienced in all aspects of eLearning development, for education & government.</p>
+                        </div>
+                    </div>
+                    <div class="boxer boxes">
+                        <div class="boxIcon">
+                            <i class="fas fa-bed"></i>
+                        </div>
+                        <div class="boxTxt">
+                            <h3>Hospitality Industry</h3>
+                            <p>PureSoft Technologies provides solutions for hotels and hospitality industry at large.</p>
+                        </div>
+                    </div>
+                    <div class="boxer boxes">
+                        <div class="boxIcon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="boxTxt">
+                            <h3>ERP Business Solution</h3>
+                            <p>Keep track of various departments of your organization at a central database.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="pad plast2"></div>
