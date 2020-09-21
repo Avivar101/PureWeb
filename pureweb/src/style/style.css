@@ -318,7 +318,7 @@ section .slidr-botm .text router-link {
 }
 
 section .bod .bod1 {
-  height: 440px;
+  height: 380px;
   background-color: #26ad3c;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -342,6 +342,8 @@ section .bod .bod1 .bodTxt {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.42857143;
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
 
 section .bod .bod1 .bodTxt h1 {
@@ -360,8 +362,141 @@ section .bod .bod1 .bodTxt p {
   margin-bottom: 0px;
 }
 
+section .bod .bod1 .bodBtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section .bod .bod1 .bodBtn .btnClor {
+  padding: 10px 0px !important;
+  font-size: 16px;
+  width: 110px !important;
+  background: rgba(255, 255, 255, 0.25);
+  border-right: none;
+  border-bottom: none;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 300;
+  display: inline-block;
+  color: #fff;
+  margin: 0 10px !important;
+  text-align: center;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
 section .bod .bod2 {
-  height: 320px;
+  height: 280px !important;
+}
+
+section .bod .bod2 .nte {
+  position: relative;
+  min-height: -webkit-fit-content;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
+  background: #f5f5f5;
+  border: 1px solid #ddd;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #888888;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 5px;
+  width: 100%;
+  top: -130px;
+  padding: 60px;
+  font-family: PT Sans, sans-serif;
+  max-height: 380px;
+}
+
+section .bod .bod2 .nte img {
+  float: left;
+  background-color: #8ed326;
+  height: 100%;
+  max-height: 290px;
+  width: 50%;
+  padding: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+section .bod .bod2 .nte h3 {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #777;
+  line-height: 1.1;
+}
+
+section .bod .bod2 .nte p {
+  margin: 0 0 10px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.42857143;
+}
+
+section .last .plast {
+  background: url(../assets/images/company2.jpg) no-repeat center fixed;
+  background-size: cover;
+  height: 600px;
+}
+
+section .last .plast .plastTxt {
+  font-family: PT Sans, sans-serif;
+  font-weight: normal;
+  text-align: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+
+section .last .plast .plastTxt h3 {
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-transform: uppercase;
+  font-size: 36px;
+}
+
+section .last .plast .plastTxt p {
+  display: inline-block;
+  max-width: 80%;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+section .last .plast .plastBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 30px;
+}
+
+section .last .plast .plastBox .Box {
+  height: 30px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+section .last .plast .plastBox .box1 {
+  background-color: yellow;
+}
+
+section .last .plast .plastBox .box2 {
+  background-color: blue;
+}
+
+section .last .plast .plastBox .box3 {
+  background-color: brown;
+}
+
+section .last .plast2 {
+  background-color: white;
+  height: 500px;
 }
 
 * {
