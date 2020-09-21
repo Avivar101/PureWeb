@@ -126,4 +126,41 @@ section {
       }
     }
   }
+  .bod {
+    .bod1 {
+      height: 440px;
+      background-color: rgb(38, 173, 60);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: white;
+      box-sizing: border-box;
+
+      .bodTxt {
+        text-align: center;
+        width: 80%;
+        font-family: PT Sans, sans-serif;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 1.42857143;
+        h1 {
+          font-size: 36px;
+          line-height: 36px;
+          font-weight: 200;
+          text-transform: uppercase;
+          font-family: Open Sans;
+        }
+        p {
+          font-family: PT Sans, sans-serif;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 22px;
+          margin-bottom: 0px;
+        }
+      }
+    }
+    .bod2 {
+      height: 320px;
+    }
+  }
 }

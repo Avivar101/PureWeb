@@ -67,6 +67,19 @@
             <router-link to tag="li">Get a free Quote</router-link>
         </div>
     </div>
+    <div class="bod">
+        <div class="pad bod1">
+            <div class="bodTxt">
+                <h1>A Glance On Our Services</h1>
+                <p>
+                    We are a dynamic and business focused ICT firm. We boast of a unique set of skills and competencies as required for the teeming needs of our clients.
+                    One of our "claims to fame" is our ability to get you online quickly. Building a website is a complex, time-consuming undertaking.
+                </p>
+            </div>
+            <div class="bodBtn"></div>
+        </div>
+        <div class="pad bod2"></div>
+    </div>
 </section>
 </template>
 
