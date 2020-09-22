@@ -38,25 +38,40 @@
     <div class="pad slidr-botm">
         <div class="hovers">
             <div class="hovr hovrBlck1">
-                <h3>CUSTOMERS</h3>
-                <p>
-                    2,281+ Happy
-                    <br />Customers
-                </p>
+                <div class="boxIcon">
+                    <i class="fas fa-shopping-cart"></i>
+                </div>
+                <div class="boxTxt">
+                    <h3>CUSTOMERS</h3>
+                    <p>
+                        2,281+ Happy
+                        <br />Customers
+                    </p>
+                </div>
             </div>
             <div class="hovr hovrBlck2">
-                <h3>PROJECTS</h3>
-                <p>
-                    2000+ Projects
-                    <br />Completed
-                </p>
+                <div class="boxIcon">
+                    <i class="fas fa-shopping-cart"></i>
+                </div>
+                <div class="boxTxt">
+                    <h3>PROJECTS</h3>
+                    <p>
+                        2000+ Projects
+                        <br />Completed
+                    </p>
+                </div>
             </div>
             <div class="hovr hovrBlck3">
-                <h3>EXPERIENCE</h3>
-                <p>
-                    15+ years of
-                    <br />Experience
-                </p>
+                <div class="boxIcon">
+                    <i class="fas fa-shopping-cart"></i>
+                </div>
+                <div class="boxTxt">
+                    <h3>EXPERIENCE</h3>
+                    <p>
+                        15+ years of
+                        <br />Experience
+                    </p>
+                </div>
             </div>
         </div>
         <div class="text">

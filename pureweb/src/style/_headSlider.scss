@@ -76,244 +76,291 @@ section {
       .hovr {
         width: 33.3%;
         color: white;
-        z-index: 1;
-      }
-      .hovr:hover {
-        background-color: #666;
-      }
-      .hovrBlck1 {
-        background-color: rgb(16, 143, 16);
-      }
-      .hovrBlck2 {
-        background-color: rgb(37, 197, 37);
-      }
-      .hovrBlck3 {
-        background-color: rgb(95, 223, 45);
-      }
-    }
-    .text {
-      font-family: PT Sans, sans-serif;
-      color: rgba(255, 255, 255, 1);
-      display: flex;
-      align-items: center;
-      .txt {
-        margin-right: 20px;
-        margin-left: 30px;
-      }
-      h6 {
-        font-size: 22px;
-        line-height: 22px;
-        font-weight: 700;
-        text-transform: uppercase;
-      }
-      p {
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 1.42857143;
-      }
-      router-link {
-        display: inline-block;
-        border-radius: 5px;
-        cursor: pointer;
-        letter-spacing: normal;
-        font-weight: 300;
-        font-family: PT Sans;
-        font-size: 14px;
-        padding: 8px 15px;
-        color: #666;
-        background-color: white;
-        height: 40px;
-      }
-    }
-  }
-  .bod {
-    .bod1 {
-      height: 380px;
-      background-color: rgb(38, 173, 60);
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      color: white;
-      box-sizing: border-box;
-
-      .bodTxt {
-        text-align: center;
-        width: 80%;
-        font-family: PT Sans, sans-serif;
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 1.42857143;
-        margin-top: 30px;
-        margin-bottom: 50px;
-        h1 {
-          font-size: 36px;
-          line-height: 36px;
-          font-weight: 200;
-          text-transform: uppercase;
-          font-family: Open Sans;
-        }
-        p {
-          font-family: PT Sans, sans-serif;
-          font-weight: normal;
-          font-size: 14px;
-          line-height: 22px;
-          margin-bottom: 0px;
-        }
-      }
-      .bodBtn {
         display: flex;
-
-        .btnClor {
-          padding: 10px 0px !important;
-          font-size: 16px;
-          width: 110px !important;
-          background: rgba(255, 255, 255, 0.25);
-          border-right: none;
-          border-bottom: none;
-          font-size: 16px;
-          line-height: 20px;
-          font-weight: 300;
+        align-items: center;
+        cursor: pointer;
+        .boxIcon {
           display: inline-block;
-          color: #fff;
-          margin: 0 10px !important;
           text-align: center;
-          border-radius: 3px;
-          cursor: pointer;
-        }
-      }
-    }
-    .bod2 {
-      height: 280px !important;
-      .nte {
-        position: relative;
-        min-height: fit-content;
-        background: #f5f5f5;
-        border: 1px solid #ddd;
-        box-sizing: border-box;
-        color: #888888;
-        font-size: 14px;
-        line-height: 1.42857143;
-        border-radius: 5px;
-        width: 100%;
-        top: -130px;
-        padding: 60px;
-        font-family: PT Sans, sans-serif;
-        max-height: 380px;
-        img {
-          float: left;
-          background-color: rgb(142, 211, 38);
-          height: 100%;
-          max-height: 290px;
-          width: 50%;
-          padding: 20px;
-          margin-right: 20px;
-          border-radius: 10px;
-          margin-bottom: 10px;
+          margin-right: 5px;
+          padding: 12px;
+          color: rgba(255, 255, 255, 1);
+          border-style: solid;
+          border-color: rgba(67, 120, 7, 1);
+          border-radius: 50px;
+          position: relative;
+          left: -25px;
+          .fas,
+          .far {
+            font-size: 20px;
+          }
         }
         h3 {
           font-size: 18px;
-          font-weight: bold;
+          line-height: 18px;
+          font-weight: 700;
           text-transform: uppercase;
-          color: #777;
-          line-height: 1.1;
+          font-family: PT Sans, sans-serif;
         }
         p {
-          margin: 0 0 10px;
-          font-weight: normal;
           font-size: 14px;
           line-height: 1.42857143;
         }
       }
     }
+    .hovr:hover {
+      background-color: #666;
+      .boxIcon {
+        background-color: inherit;
+      }
+      .hovrBlck2 {
+        .boxIcon {
+          border-color: lawngreen !important;
+        }
+      }
+    }
+    .hovrBlck1 {
+      background-color: rgb(16, 143, 16);
+      .boxIcon {
+        background-color: inherit;
+        border-color: lawngreen !important;
+      }
+    }
+    .hovrBlck2 {
+      background-color: rgb(37, 197, 37);
+      .boxIcon {
+        background-color: inherit;
+      }
+    }
+    .hovrBlck3 {
+      background-color: rgb(95, 223, 45);
+      .boxIcon {
+        background-color: inherit;
+      }
+    }
   }
-  .last {
-    .plast {
-      background: url(../assets/images/company2.jpg) no-repeat center fixed;
-      background-size: cover;
-      height: 600px;
-      .plastTxt {
+  .text {
+    font-family: PT Sans, sans-serif;
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: center;
+    .txt {
+      margin-right: 20px;
+      margin-left: 30px;
+    }
+    h6 {
+      font-size: 22px;
+      line-height: 22px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    p {
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 1.42857143;
+    }
+    router-link {
+      display: inline-block;
+      border-radius: 5px;
+      cursor: pointer;
+      letter-spacing: normal;
+      font-weight: 300;
+      font-family: PT Sans;
+      font-size: 14px;
+      padding: 8px 15px;
+      color: #666;
+      background-color: white;
+      height: 40px;
+    }
+  }
+}
+.bod {
+  .bod1 {
+    height: 380px;
+    background-color: rgb(38, 173, 60);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    box-sizing: border-box;
+
+    .bodTxt {
+      text-align: center;
+      width: 80%;
+      font-family: PT Sans, sans-serif;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 1.42857143;
+      margin-top: 30px;
+      margin-bottom: 50px;
+      h1 {
+        font-size: 36px;
+        line-height: 36px;
+        font-weight: 200;
+        text-transform: uppercase;
+        font-family: Open Sans;
+      }
+      p {
         font-family: PT Sans, sans-serif;
         font-weight: normal;
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 0px;
+      }
+    }
+    .bodBtn {
+      display: flex;
+
+      .btnClor {
+        padding: 10px 0px !important;
+        font-size: 16px;
+        width: 110px !important;
+        background: rgba(255, 255, 255, 0.25);
+        border-right: none;
+        border-bottom: none;
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 300;
+        display: inline-block;
+        color: #fff;
+        margin: 0 10px !important;
         text-align: center;
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-        color: white;
-        h3 {
-          display: inline-block;
-          box-sizing: border-box;
-          text-transform: uppercase;
-          font-size: 36px;
-        }
-        p {
-          display: inline-block;
-          max-width: 80%;
-          font-size: 13px;
-          line-height: 16px;
-        }
+        border-radius: 3px;
+        cursor: pointer;
       }
-      .plastBox {
+    }
+  }
+  .bod2 {
+    height: 280px !important;
+    .nte {
+      position: relative;
+      min-height: fit-content;
+      background: #f5f5f5;
+      border: 1px solid #ddd;
+      box-sizing: border-box;
+      color: #888888;
+      font-size: 14px;
+      line-height: 1.42857143;
+      border-radius: 5px;
+      width: 100%;
+      top: -130px;
+      padding: 60px;
+      font-family: PT Sans, sans-serif;
+      max-height: 380px;
+      img {
+        float: left;
+        background-color: rgb(142, 211, 38);
+        height: 100%;
+        max-height: 290px;
+        width: 50%;
+        padding: 20px;
+        margin-right: 20px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+      }
+      h3 {
+        font-size: 18px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #777;
+        line-height: 1.1;
+      }
+      p {
+        margin: 0 0 10px;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 1.42857143;
+      }
+    }
+  }
+}
+.last {
+  .plast {
+    background: url(../assets/images/company2.jpg) no-repeat center fixed;
+    background-size: cover;
+    height: 600px;
+    .plastTxt {
+      font-family: PT Sans, sans-serif;
+      font-weight: normal;
+      text-align: center;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      color: white;
+      h3 {
+        display: inline-block;
+        box-sizing: border-box;
+        text-transform: uppercase;
+        font-size: 36px;
+      }
+      p {
+        display: inline-block;
+        max-width: 80%;
+        font-size: 13px;
+        line-height: 16px;
+      }
+    }
+    .plastBox {
+      display: flex;
+      margin-top: 25px;
+      width: 95%;
+      margin-left: auto;
+      margin-right: auto;
+      .Box {
+        flex: 1 1 0;
+        width: 0;
+        height: 22em;
+        flex-direction: column;
+        justify-content: space-evenly;
+      }
+      .box1 {
         display: flex;
-        margin-top: 25px;
-        width: 95%;
-        margin-left: auto;
-        margin-right: auto;
-        .Box {
-          flex: 1 1 0;
-          width: 0;
-          height: 22em;
-          flex-direction: column;
-          justify-content: space-evenly;
-        }
-        .box1 {
+        flex-direction: column;
+        .boxes {
+          color: rgba(255, 255, 255, 1);
           display: flex;
-          flex-direction: column;
-          .boxes {
+          .boxIcon {
+            display: inline-block;
+            text-align: center;
+            margin-right: 5px;
+            padding: 12px;
             color: rgba(255, 255, 255, 1);
-            display: flex;
-            .boxIcon {
-              display: inline-block;
-              text-align: center;
-              margin-right: 5px;
-              padding: 12px;
-              color: rgba(255, 255, 255, 1);
-              background-color: rgba(67, 120, 7, 1);
-              border-style: solid;
-              border-color: rgba(67, 120, 7, 1);
-              border-radius: 50px;
-              .fas,
-              .far {
-                font-size: 28px;
-              }
-            }
-            h3 {
-              font-size: 18px;
-              line-height: 18px;
-              font-weight: 700;
-              text-transform: uppercase;
-              font-family: PT Sans, sans-serif;
-            }
-            p {
-              font-size: 14px;
-              line-height: 1.42857143;
+            background-color: rgba(67, 120, 7, 1);
+            border-style: solid;
+            border-color: rgba(67, 120, 7, 1);
+            border-radius: 50px;
+            .fas,
+            .far {
+              font-size: 28px;
             }
           }
-          .bozer {
-            text-align: left;
+          h3 {
+            font-size: 18px;
+            line-height: 18px;
+            font-weight: 700;
+            text-transform: uppercase;
+            font-family: PT Sans, sans-serif;
           }
-          .boxer {
-            text-align: right;
-            flex-direction: row-reverse;
-            .boxIcon {
-              margin-left: 5px !important;
-            }
+          p {
+            font-size: 14px;
+            line-height: 1.42857143;
+          }
+        }
+        .bozer {
+          text-align: left;
+        }
+        .boxer {
+          text-align: right;
+          flex-direction: row-reverse;
+          .boxIcon {
+            margin-left: 5px !important;
           }
         }
       }
     }
-    .plast2 {
-      background-color: white;
-      height: 500px;
-    }
+  }
+  .plast2 {
+    background-color: white;
+    height: 500px;
   }
 }
