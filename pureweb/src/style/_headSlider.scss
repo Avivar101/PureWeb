@@ -2,16 +2,19 @@ section {
   .slide {
     box-sizing: border-box;
     .slider1 {
+      background-image: url("../assets/images/sliders/slider1.jpg");
+      overflow: hidden;
       .img-slidr {
         height: 510px;
-        background-image: url("../assets/images/sliders/slider1.jpg");
+
         background-position: -70px;
         display: flex;
+        animation: slidr 2s ease;
         .container {
           color: white;
           max-width: 82%;
           margin: auto;
-          flex-grow: 0.5;
+          flex-grow: 0;
           h4 {
             font-size: 18px;
             margin-bottom: 7px;
@@ -37,8 +40,8 @@ section {
           }
         }
         .imgs {
-          z-index: 1;
-
+          overflow: hidden;
+          width: fit-content;
           .img1 {
             img {
               position: relative;
@@ -48,9 +51,11 @@ section {
             position: relative;
             bottom: 124px;
             right: 190px;
+            z-index: 1;
             img {
               bottom: 124px;
               right: 190px;
+              z-index: 1;
             }
           }
           .img3 {
@@ -62,6 +67,16 @@ section {
               left: 310px;
             }
           }
+        }
+      }
+      @keyframes slidr {
+        0% {
+          opacity: 0;
+          transform: scale(1.1);
+        }
+        100% {
+          opacity: 1;
+          transform: scale(1);
         }
       }
     }

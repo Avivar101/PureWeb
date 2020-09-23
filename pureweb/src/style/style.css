@@ -161,22 +161,28 @@ section .slide {
           box-sizing: border-box;
 }
 
+section .slide .slider1 {
+  background-image: url("../assets/images/sliders/slider1.jpg");
+  overflow: hidden;
+}
+
 section .slide .slider1 .img-slidr {
   height: 510px;
-  background-image: url("../assets/images/sliders/slider1.jpg");
   background-position: -70px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-animation: slidr 2s ease;
+          animation: slidr 2s ease;
 }
 
 section .slide .slider1 .img-slidr .container {
   color: white;
   max-width: 82%;
   margin: auto;
-  -webkit-box-flex: 0.5;
-      -ms-flex-positive: 0.5;
-          flex-grow: 0.5;
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
 }
 
 section .slide .slider1 .img-slidr .container h4 {
@@ -208,7 +214,10 @@ section .slide .slider1 .img-slidr .container router-link {
 }
 
 section .slide .slider1 .img-slidr .imgs {
-  z-index: 1;
+  overflow: hidden;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 section .slide .slider1 .img-slidr .imgs .img1 img {
@@ -219,11 +228,13 @@ section .slide .slider1 .img-slidr .imgs .img2 {
   position: relative;
   bottom: 124px;
   right: 190px;
+  z-index: 1;
 }
 
 section .slide .slider1 .img-slidr .imgs .img2 img {
   bottom: 124px;
   right: 190px;
+  z-index: 1;
 }
 
 section .slide .slider1 .img-slidr .imgs .img3 {
@@ -235,6 +246,32 @@ section .slide .slider1 .img-slidr .imgs .img3 {
 section .slide .slider1 .img-slidr .imgs .img3 img {
   bottom: 291px;
   left: 310px;
+}
+
+@-webkit-keyframes slidr {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes slidr {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
 }
 
 section .slidr-botm {
