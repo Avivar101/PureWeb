@@ -18,16 +18,29 @@ section {
           h4 {
             font-size: 18px;
             margin-bottom: 7px;
+            opacity: 0;
+            animation: captionTxt 0.5s ease forward;
+            animation-delay: 1s;
           }
+
           h2 {
             font-size: 30px;
             margin-bottom: 12px;
+            opacity: 0;
+            animation: captionTxt 0.5s ease forward;
+            animation-delay: 1s;
             span {
               color: green;
+              opacity: 0;
+              animation: captionTxt 0.5s ease forward;
+              animation-delay: 1s;
             }
           }
           p {
             margin-bottom: 12px;
+            opacity: 0;
+            animation: captionTxt 0.5s ease forward;
+            animation-delay: 1s;
           }
           router-link {
             display: inline-block;
@@ -37,6 +50,19 @@ section {
             border-radius: 5px;
             padding: 5px 7px 0 7px;
             cursor: pointer;
+            opacity: 0;
+            animation: captionTxt 0.5s ease forward;
+            animation-delay: 1s;
+          }
+          @keyframes captionTxt {
+            0% {
+              opacity: 0;
+              transform: translateX(-100px);
+            }
+            100% {
+              opacity: 1;
+              transform: translateX(0px);
+            }
           }
         }
         .imgs {
@@ -105,10 +131,25 @@ section {
           border-radius: 50px;
           position: relative;
           left: -25px;
+          animation: yourAnimation 0.4s ease 2s infinite alternate none;
           .fas,
           .far {
             font-size: 20px;
           }
+
+          /* Copy this @keyframes block to your CSS*/
+          @keyframes yourAnimation {
+            0% {
+              transform: rotate(25deg);
+              transform-origin: center;
+            }
+            100% {
+              transform: rotate(-15deg);
+              transform-origin: center;
+            }
+          }
+
+          /* Add the animation: property to whichever element you want to animate */
         }
         h3 {
           font-size: 18px;
